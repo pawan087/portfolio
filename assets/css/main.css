@@ -1888,10 +1888,16 @@ hr.major {
   }
 }
 
+h3 {
+  cursor: pointer;
+}
+
 .project-img {
-  width: 100%;
+  display: flex;
+  width: 125%;
+  transform: translate(-4.33em);
+  cursor: pointer;
   padding-bottom: 1em;
-  /* transform: translateX(-50px); */
 }
 
 .project-img img {
@@ -1926,6 +1932,7 @@ hr.major {
   flex-wrap: wrap;
   text-align: center;
 }
+
 
 .tech-list--item img {
   max-width: 88px;
@@ -3388,7 +3395,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #E43F5A;
+  background-color: #162447;
 }
 
 .wrapper.style1-alt {
@@ -3408,7 +3415,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #162447;
+  background-color: #E43F5A;
 }
 
 .wrapper.style3-alt {
@@ -3915,10 +3922,10 @@ body.is-ie #sidebar > .inner {
 /* COLORS - PAWAN */
 
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #162447, #1F4068);
-  background-image: -webkit-linear-gradient(to right, #162447, #1F4068);
-  background-image: -ms-linear-gradient(to right, #162447, #1F4068);
-  background-image: linear-gradient(to right, #162447, #1F4068);
+  background-image: -moz-linear-gradient(to right, #162447, #E43F5A);
+  background-image: -webkit-linear-gradient(to right, #162447, #E43F5A);
+  background-image: -ms-linear-gradient(to right, #162447, #E43F5A);
+  background-image: linear-gradient(to right, #162447, #E43F5A);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
