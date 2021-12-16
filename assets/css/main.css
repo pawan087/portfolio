@@ -1894,8 +1894,10 @@ h3 {
 
 .project-img {
   display: flex;
-  width: 125%;
-  transform: translate(-4.33em);
+  object-fit: contain;
+  width: 100%;
+  height: 17.5em;
+  transform: translate(-2em) scale(1.125);
   cursor: pointer;
   padding-bottom: 1em;
 }
